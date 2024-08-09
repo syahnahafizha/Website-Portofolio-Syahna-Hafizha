@@ -1,0 +1,22 @@
+body {
+  overflow-x: hidden;
+  min-height: 2000px;
+}
+nav {
+  background-color: #324851;
+}
+
+.jumbotron {
+  /* padding: 2rem 1rem; (atas bawah, kanan kiri) */
+  padding-top: 6rem;
+}
+
+h2 {
+  color: white;
+}
+
+#projects {
+  background-color: #34675c;
+  padding-bottom: 4rem;
+  padding-top: 5rem;
+}
