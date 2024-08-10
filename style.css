@@ -1,6 +1,5 @@
 body {
   overflow-x: hidden;
-  min-height: 2000px;
 }
 nav {
   background-color: #324851;
@@ -11,7 +10,11 @@ nav {
   padding-top: 6rem;
 }
 
-h2 {
+.judul1 {
+  color: #34675c;
+}
+
+.judul2 {
   color: white;
 }
 
@@ -19,4 +22,59 @@ h2 {
   background-color: #34675c;
   padding-bottom: 4rem;
   padding-top: 5rem;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Membesarkan card sebesar 5% */
+}
+
+/* .custom-card-bg {
+  background-color: #34675c;
+} */
+
+.fs-7 {
+  font-size: 10px;
+}
+.fs-8 {
+  font-size: 12px;
+}
+
+.left-arrow {
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 20px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 1px solid #34675c;
+  right: -14px;
+}
+
+.right-arrow {
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 20px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 1px solid #34675c;
+  left: -14px;
+}
+
+.left-card {
+  left: -17%;
+}
+
+.right-card {
+  left: 19%;
+}
+
+footer {
+  background-color: #324851;
 }
